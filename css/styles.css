@@ -445,14 +445,32 @@ img {
   color: var(--blue-color);
 }
 
+/* join us */
+
 .social-join {
   display: flex;
   align-items: center;
 }
 
+.social-join a {
+  fill: var(--white-color);
+  padding: 12px 11.97px;
+}
+
+.social-join li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .social-join li:not(:last-child) {
   margin-right: 10px;
 }
+
 .join-us h2 {
   font-weight: bold;
   font-size: 14px;
@@ -461,6 +479,12 @@ img {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--white-color);
+}
+
+.social-join li:hover,
+.social-join li:focus,
+.social-join li:active {
+  background-color: var(--blue-color);
 }
 
 /* portfolio */
