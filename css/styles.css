@@ -477,6 +477,7 @@ img {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 12px;
   margin-bottom: 20px;
   color: var(--white-color);
 }
