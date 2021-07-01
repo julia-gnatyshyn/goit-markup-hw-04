@@ -285,6 +285,7 @@ img {
 .workers {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .workers > li {
